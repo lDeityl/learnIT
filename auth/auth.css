@@ -1,8 +1,8 @@
-.login{
+.login {
     margin: 0 auto;
     max-width: 620px;
     width: 100%;
-    padding:100px 50px;
+    padding: 100px 50px;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -11,14 +11,16 @@
     color: #FFFFFF;
     align-items: center;
 }
-.register{
+
+.register {
     padding: 50px;
 }
-.login{
+
+.login {
     font-size: var(--fs-32);
 }
 
-.input__login{
+.input__login {
     padding: 20px;
     background: #E4E7EE;
     font-size: var(--fs-24);
@@ -28,7 +30,7 @@
     width: 100%;
 }
 
-.spans{
+.spans {
     display: flex;
     margin-top: -35px;
     justify-content: space-between;
@@ -51,6 +53,7 @@
     width: 100%;
     gap: 15px;
 }
+
 .cheeckbox label {
     font-size: var(--fs-20);
     font-weight: 400;
@@ -60,6 +63,6 @@
     width: 100%;
 }
 
-.register__a{
+.register__a {
     max-width: 350px;
 }

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin panel</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="profile.css">
 </head>
+
 <body>
     <header>
         <div class="wrapper header__nav">
-            <img src="logo" alt="logo" class="logo__image">
+            <img src="../assets/images/logotip.png" alt="logo" class="logo__image">
             <nav>
                 <a href="" class="header__a">Все курсы</a>
                 <a href="" class="header__a">Поиск</a>
@@ -20,7 +24,60 @@
             </nav>
         </div>
     </header>
-
+    <div class="wrapper">
+        <div class="blockCourse black">
+            <div class="box">
+                <span>Дата начала курса</span>
+                <input type="date" name="" id="">
+            </div>
+            <div class="box">
+                <span>Статус курса</span>
+                <select name="" id="">
+                    <option value="">Статус курса</option>
+                    <option value="">Статус курса</option>
+                    <option value="">Статус курса</option>
+                </select>
+            </div>
+        </div>
+        <div class="blockCourse black twoBox">
+            <div class="slider">
+                <div class="review">
+                    <div class="up__admin">
+                        <h2>Название курса</h2>
+                        <select name="" id="">
+                            <option value="">На модерации</option>
+                            <option value="">На модерации</option>
+                            <option value="">На модерации</option>
+                        </select>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, amet corrupti et voluptas
+                        debitis
+                        laudantium sunt, praesentium nemo ipsam minus magnam dolore neque error reiciendis, deleniti
+                        molestias quas nesciunt dolores.</p>
+                    <div class="list">
+                        <div class="left">
+                            <span>Профессия курса</span>
+                            <span>Тематика курса</span>
+                            <span>Тип обучения </span>
+                            <span>Уровень сложности </span>
+                        </div>
+                        <div class="left">
+                            <span>Стоимость курса</span>
+                            <span>Дата начала курса</span>
+                            <span>Продолжительность курса</span>
+                            <span>Скидка на курс</span>
+                        </div>
+                    </div>
+                    <div class="arrow right">&rarr;</div>
+                    <div class="arrow left">&larr;</div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="a__exuslive addCourse">
+            <span class="span__exuslive"></span>
+            Добавить курс
+        </a>
+    </div>
     <footer>
         <div class="wrapperFooter">
             <div class="left__footer">
@@ -41,4 +98,5 @@
         </div>
     </footer>
 </body>
+
 </html>

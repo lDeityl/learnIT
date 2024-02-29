@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,7 +44,9 @@ li {
     list-style-type: none;
 }
 
-select, input, button {
+select,
+input,
+button {
     outline: none;
     background: none;
     border: none;
@@ -136,17 +140,19 @@ footer {
 
 .wrapperFooter {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 15px;
     color: white;
     width: 100%;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1640px;
 }
 
 .left__footer {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
     align-items: center;
 }
@@ -154,9 +160,9 @@ footer {
 .left__footer nav {
     max-width: 400px;
     width: 100%;
-    flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -185,8 +191,25 @@ footer {
     padding: 20px 0;
 }
 
+.header__nav img {
+    max-width: 100px;
+    width: 100%;
+    border-radius: 12px;
+}
+
 .header__nav nav {
     display: flex;
     align-items: center;
     gap: 80px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1440px) {
+    .header__nav nav {
+        gap: 15px;
+    }
+
+    .header__nav {
+        padding: 10px;
+    }
 }

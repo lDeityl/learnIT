@@ -1,9 +1,10 @@
-.box__profile{
+.box__profile {
     display: flex;
     flex-direction: column;
     gap: 57px;
 }
-.profile__up{
+
+.profile__up {
     display: flex;
     justify-content: space-between;
     gap: 15px;
@@ -11,13 +12,13 @@
     align-items: flex-end;
 }
 
-.profile__up .lef__side{
+.profile__up .lef__side {
     display: flex;
     align-items: center;
     gap: 57px;
 }
 
-.image{
+.image {
     background: #303134;
     border-radius: 6px;
     padding: 30px;
@@ -34,20 +35,20 @@
     color: white;
 }
 
-.white__photo{
+.white__photo {
     width: 150px;
     height: 150px;
     border-radius: 6px;
     background: #E4E7EE;
 }
 
-.inputs{
+.inputs {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.box__input{
+.box__input {
     border: 5px solid #303134;
     border-radius: 6px;
     display: flex;
@@ -71,23 +72,23 @@
     line-height: 20px;
 }
 
-.static__block{
+.static__block {
     display: flex;
     gap: 5px;
     align-items: center;
     width: 100%;
 }
 
-.static__block .box__input{
+.static__block .box__input {
     align-items: center;
 }
 
-.static__block .box__input span{
+.static__block .box__input span {
     font-size: var(--fs-14);
     text-decoration: none;
 }
 
-.course__current{
+.course__current {
     display: flex;
     max-width: 300px;
     width: 100%;
@@ -95,7 +96,8 @@
     gap: 50px;
 }
 
-.first__course, .secondd__course {
+.first__course,
+.secondd__course {
     border-radius: 6px;
     padding: 10px;
     text-align: center;
@@ -114,17 +116,21 @@
 }
 
 
-.active ,.moder, .done{
+.active,
+.moder,
+.done {
     display: flex;
     flex-direction: column;
     gap: 57px;
 }
 
-.active span ,.moder span, .done span {
+.active span,
+.moder span,
+.done span {
     width: 20%;
 }
 
-.blocks__courses{
+.blocks__courses {
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -140,7 +146,7 @@
     gap: 57px;
 }
 
-.jcb{
+.jcb {
     display: flex;
     justify-content: space-between;
     gap: 15px;
@@ -162,6 +168,7 @@
 .active .item {
     background: #9EA2FE;
 }
+
 .moder .item {
     background: #FFC5D0;
 }
@@ -172,22 +179,20 @@
 
 .moder__course {
     background: #FFC5D0;
-     border-radius: 6px;
+    border-radius: 6px;
     padding: 10px;
     text-align: center;
     font-size: var(--fs-20);
     font-weight: 500;
     line-height: 24px;
-
 }
 
 .done__course {
     background: #B8FB8E;
-     border-radius: 6px;
+    border-radius: 6px;
     padding: 10px;
     text-align: center;
     font-size: var(--fs-20);
     font-weight: 500;
     line-height: 24px;
-
 }

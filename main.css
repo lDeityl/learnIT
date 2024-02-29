@@ -61,7 +61,8 @@
     background: radial-gradient(rgba(189, 189, 189, 0.82), rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0), rgba(217, 217, 217, 0));
 }
 
-.absolute__slider-1, .absolute__slider-2 {
+.absolute__slider-1,
+.absolute__slider-2 {
     width: 500px;
     height: 600px;
     background: #303134;
@@ -306,7 +307,8 @@
     background: white;
 }
 
-.from, .to {
+.from,
+.to {
     max-width: 160px;
 }
 
@@ -379,7 +381,8 @@
     gap: 10px;
 }
 
-.circle__review, .circle__review__off {
+.circle__review,
+.circle__review__off {
     border: 2px solid white;
     width: 15px;
     height: 15px;
@@ -447,4 +450,3 @@
     font-weight: 400;
     line-height: 24px;
 }
-
