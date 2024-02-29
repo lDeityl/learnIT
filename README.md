@@ -1,1 +1,6 @@
 # learnIT
+
+Технологии
+> html
+
+> css
